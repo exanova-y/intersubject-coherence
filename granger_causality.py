@@ -29,7 +29,11 @@ plt.show() # to make the graph appear on the screen until you manually close it
 # window size = 8 seconds
 
 ### preprocessing
-ica = mne.preprocessing.ICA
+
+# filtering
+# downsampling
+# 8*256*32 = 65536 kb per second
+
 # preprocess the data with mne - need to filter ADHD signals!
 
 # visualize it again 
